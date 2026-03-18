@@ -1,0 +1,1547 @@
+graph [
+  directed 1
+  multigraph 1
+  GeoLocation "South Korea"
+  GeoExtent "Country"
+  Network "KREONET"
+  Provenance "Secondary"
+  Note "Ochang found as Chungbuk from http://noc.kreonet.net/english/sub02/s03_7.htm and checked with map on http://noc.kreonet.net/english/sub02/s01_3.htm Massey is Massey University in Palmerston North (in suburb of Turitea  http://weathermap.karen.net.nz/index.php?src=anx16-mup )"
+  Source "http://www.nren.nasa.gov/workshops/pdfs9/PanelB_KREONet2-Lee.pdf"
+  Version "1.0"
+  Type "REN"
+  DateType "Historic"
+  Backbone 1
+  Commercial 0
+  label "Kreonet"
+  ToolsetVersion "0.3.34dev-20120328"
+  Customer 0
+  IX 0
+  SourceGitVersion "e278b1b"
+  DateModifier "="
+  DateMonth "09"
+  LastAccess "3/08/10"
+  Access 0
+  Layer "IP"
+  Creator "Topology Zoo Toolset"
+  Developed 1
+  Transit 0
+  NetworkDate "2006_09"
+  DateYear "2006"
+  LastProcessed "2011_09_01"
+  Testbed 0
+  levelsToS 46
+  node [
+    id 0
+    label "0"
+    Country "South Korea"
+    Longitude 127.14889
+    Internal 1
+    Latitude 35.82194
+    type "inner"
+    schedulingPolicy "WFQ"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    schedulingWeights "100"
+    levelsQoS 1
+    queueSizes "32"
+  ]
+  node [
+    id 1
+    label "1"
+    Country "South Korea"
+    Longitude 126.52194
+    Internal 1
+    Latitude 33.50972
+    type "destination_mmtc"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+  ]
+  node [
+    id 2
+    label "2"
+    Country "South Korea"
+    Longitude 126.91556
+    Internal 1
+    Latitude 35.15472
+    type "destination_embb"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+  ]
+  node [
+    id 3
+    label "3"
+    Country "South Korea"
+    Longitude 129.04028
+    Internal 1
+    Latitude 35.10278
+    type "antenna"
+    schedulingPolicy "WFQ"
+    tosToQoSqueue "19,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    schedulingWeights "100;100"
+    levelsQoS 1
+    queueSizes "32"
+  ]
+  node [
+    id 4
+    label "4"
+    Country "South Korea"
+    Longitude 128.68111
+    Internal 1
+    Latitude 35.22806
+    type "inner"
+    schedulingPolicy "WFQ"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    schedulingWeights "100"
+    levelsQoS 1
+    queueSizes "32"
+  ]
+  node [
+    id 5
+    label "5"
+    Country "South Korea"
+    Longitude 126.97783
+    Internal 1
+    Latitude 37.56826
+    type "inner"
+    schedulingPolicy "WFQ"
+    tosToQoSqueue "20,21,29,30,31,32,35,39,44,45;24,26,33,36,37,38,40,41,42,43;16,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,22,23,25,27,28,34"
+    schedulingWeights "0.001,0.001,99.998;46.807,50.433,2.761;0.001,0.001,99.998"
+    levelsQoS 3
+    queueSizes "32,32,32"
+  ]
+  node [
+    id 6
+    label "6"
+    Country "South Korea"
+    Longitude 126.73167
+    Internal 1
+    Latitude 37.45361
+    type "destination_urllc"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+  ]
+  node [
+    id 7
+    label "7"
+    Country "South Korea"
+    Longitude 127.00889
+    Internal 1
+    Latitude 37.29111
+    type "antenna"
+    schedulingPolicy "WFQ"
+    tosToQoSqueue "16,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    schedulingWeights "100;100"
+    levelsQoS 1
+    queueSizes "32"
+  ]
+  node [
+    id 8
+    label "8"
+    Country "South Korea"
+    Longitude 127.1522
+    Internal 1
+    Latitude 36.8065
+    type "inner"
+    schedulingPolicy "WFQ"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    schedulingWeights "100"
+    levelsQoS 1
+    queueSizes "32"
+  ]
+  node [
+    id 9
+    label "9"
+    Country "South Korea"
+    Longitude 127.49042
+    Internal 1
+    Latitude 35.55292
+    type "inner"
+    schedulingPolicy "WFQ"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    schedulingWeights "100"
+    levelsQoS 1
+    queueSizes "32"
+  ]
+  node [
+    id 10
+    label "10"
+    Country "South Korea"
+    Longitude 127.41972
+    Internal 1
+    Latitude 36.32139
+    type "antenna"
+    schedulingPolicy "WFQ"
+    tosToQoSqueue "20,21,29,30,31,32,35,39,44,45;24,26,33,36,37,38,40,41,42,43;22,23,27;25,28,34;16;18;17;19,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15"
+    schedulingWeights "0.001,0.001,0.001,0.001,0.001,0.001,0.001,99.993;0.001,0.001,0.845,0.748,24.828,20.947,27.053,25.577;0.001,0.001,0.001,0.001,0.001,0.001,0.001,99.993;0.001,0.001,0.001,0.001,0.001,0.001,0.001,99.993;46.807,50.433,0.001,0.001,0.001,0.001,0.001,2.756;0.001,0.001,0.001,0.001,0.001,0.001,0.001,99.993;0.001,0.001,0.001,0.001,0.001,0.001,0.001,99.993;0.001,0.001,0.001,0.001,0.001,0.001,0.001,99.993;0.001,0.001,0.001,0.001,0.001,0.001,0.001,99.993;0.001,0.001,0.001,0.001,0.001,0.001,0.001,99.993;0.001,0.001,0.001,0.001,0.001,0.001,0.001,99.993;0.001,0.001,0.001,0.001,0.001,0.001,0.001,99.993;0.001,0.001,0.001,0.001,0.001,0.001,0.001,99.993;0.001,0.001,0.001,0.001,0.001,0.001,0.001,99.993;0.001,0.001,0.001,0.001,0.001,0.001,0.001,99.993;0.001,0.001,0.001,0.001,0.001,0.001,0.001,99.993;0.001,0.001,0.001,0.001,0.001,0.001,0.001,99.993;0.001,0.001,0.001,0.001,0.001,0.001,0.001,99.993;0.001,0.001,0.001,0.001,0.001,0.001,0.001,99.993;0.001,0.001,0.001,0.001,0.001,0.001,0.001,99.993;0.001,0.001,0.001,0.001,0.001,0.001,0.001,99.993;0.001,0.001,0.001,0.001,0.001,0.001,0.001,99.993;0.001,0.001,0.001,0.001,0.001,0.001,0.001,99.993;0.001,0.001,0.001,0.001,0.001,0.001,0.001,99.993;0.001,0.001,0.001,0.001,0.001,0.001,0.001,99.993"
+    levelsQoS 8
+    queueSizes "32,32,32,32,32,32,32,32"
+  ]
+  node [
+    id 11
+    label "11"
+    Country "South Korea"
+    Longitude 129.365
+    Internal 1
+    Latitude 36.03222
+    type "inner"
+    schedulingPolicy "WFQ"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    schedulingWeights "100"
+    levelsQoS 1
+    queueSizes "32"
+  ]
+  node [
+    id 12
+    label "12"
+    Country "South Korea"
+    Longitude 128.59111
+    Internal 1
+    Latitude 35.87028
+    type "antenna"
+    schedulingPolicy "WFQ"
+    tosToQoSqueue "20,21,29,30;24,26;22,23,27;25,28;17,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,18,19,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    schedulingWeights "18.723,10.087,0.845,0.499,69.847;0.001,0.001,0.001,0.001,99.996;0.001,0.001,0.001,0.001,99.996;0.001,0.001,0.001,0.001,99.996;0.001,0.001,0.001,0.001,99.996;0.001,0.001,0.001,0.001,99.996;0.001,0.001,0.001,0.001,99.996;0.001,0.001,0.001,0.001,99.996;0.001,0.001,0.001,0.001,99.996;0.001,0.001,0.001,0.001,99.996;0.001,0.001,0.001,0.001,99.996;0.001,0.001,0.001,0.001,99.996;0.001,0.001,0.001,0.001,99.996"
+    levelsQoS 5
+    queueSizes "32,32,32,32,32"
+  ]
+  node [
+    id 13
+    label "13"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "destination_urllc"
+  ]
+  node [
+    id 14
+    label "14"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "destination_mmtc"
+  ]
+  node [
+    id 15
+    label "15"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "destination_embb"
+  ]
+  node [
+    id 16
+    label "16"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_embb"
+    reservation 18621000.0
+  ]
+  node [
+    id 17
+    label "17"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_embb"
+    reservation 20289600.0
+  ]
+  node [
+    id 18
+    label "18"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_embb"
+    reservation 15710400.0
+  ]
+  node [
+    id 19
+    label "19"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_embb"
+    reservation 19182600.0
+  ]
+  node [
+    id 20
+    label "20"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_urllc"
+    reservation 3510500.0
+  ]
+  node [
+    id 21
+    label "21"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_urllc"
+    reservation 3510500.0
+  ]
+  node [
+    id 22
+    label "22"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_mmtc"
+    reservation 211280.0
+  ]
+  node [
+    id 23
+    label "23"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_mmtc"
+    reservation 211280.0
+  ]
+  node [
+    id 24
+    label "24"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_urllc"
+    reservation 3782450.0
+  ]
+  node [
+    id 25
+    label "25"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_mmtc"
+    reservation 186980.0
+  ]
+  node [
+    id 26
+    label "26"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_urllc"
+    reservation 3782450.0
+  ]
+  node [
+    id 27
+    label "27"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_mmtc"
+    reservation 211280.0
+  ]
+  node [
+    id 28
+    label "28"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_mmtc"
+    reservation 186980.0
+  ]
+  node [
+    id 29
+    label "29"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_urllc"
+    reservation 3510500.0
+  ]
+  node [
+    id 30
+    label "30"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_urllc"
+    reservation 3510500.0
+  ]
+  node [
+    id 31
+    label "31"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_urllc"
+    reservation 3510500.0
+  ]
+  node [
+    id 32
+    label "32"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_urllc"
+    reservation 3510500.0
+  ]
+  node [
+    id 33
+    label "33"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_urllc"
+    reservation 3782450.0
+  ]
+  node [
+    id 34
+    label "34"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_mmtc"
+    reservation 186980.0
+  ]
+  node [
+    id 35
+    label "35"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_urllc"
+    reservation 3510500.0
+  ]
+  node [
+    id 36
+    label "36"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_urllc"
+    reservation 3782450.0
+  ]
+  node [
+    id 37
+    label "37"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_urllc"
+    reservation 3782450.0
+  ]
+  node [
+    id 38
+    label "38"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_urllc"
+    reservation 3782450.0
+  ]
+  node [
+    id 39
+    label "39"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_urllc"
+    reservation 3510500.0
+  ]
+  node [
+    id 40
+    label "40"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_urllc"
+    reservation 3782450.0
+  ]
+  node [
+    id 41
+    label "41"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_urllc"
+    reservation 3782450.0
+  ]
+  node [
+    id 42
+    label "42"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_urllc"
+    reservation 3782450.0
+  ]
+  node [
+    id 43
+    label "43"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_urllc"
+    reservation 3782450.0
+  ]
+  node [
+    id 44
+    label "44"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_urllc"
+    reservation 3510500.0
+  ]
+  node [
+    id 45
+    label "45"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45"
+    queueSizes "32"
+    type "origin_urllc"
+    reservation 3510500.0
+  ]
+  edge [
+    source 0
+    target 10
+    key 0
+    LinkSpeed "5"
+    LinkLabel "5Gb/s"
+    LinkSpeedUnits "G"
+    LinkSpeedRaw 5000000000.0
+    bandwidth 75000000
+    traffic ""
+    reservation ""
+    port 0
+  ]
+  edge [
+    source 1
+    target 2
+    key 0
+    LinkSpeed "2.5"
+    LinkLabel "2.5Gb/s"
+    LinkSpeedUnits "G"
+    LinkSpeedRaw 2500000000.0
+    bandwidth 75000000
+    traffic ""
+    reservation ""
+    port 0
+  ]
+  edge [
+    source 1
+    target 14
+    key 0
+    port 1
+    weight 1
+    bandwidth 350000000
+    traffic "200000,200000,200000,200000,200000,200000"
+    reservation "211280.0,211280.0,186980.0,211280.0,186980.0,186980.0"
+  ]
+  edge [
+    source 2
+    target 1
+    key 0
+    LinkSpeed "2.5"
+    LinkLabel "2.5Gb/s"
+    LinkSpeedUnits "G"
+    LinkSpeedRaw 2500000000.0
+    bandwidth 75000000
+    traffic "200000,200000,200000,200000,200000,200000"
+    reservation "211280.0,211280.0,186980.0,211280.0,186980.0,186980.0"
+    port 0
+  ]
+  edge [
+    source 2
+    target 10
+    key 0
+    LinkSpeed "10"
+    LinkLabel "10Gb/s"
+    LinkSpeedUnits "G"
+    LinkSpeedRaw 10000000000.0
+    bandwidth 75000000
+    traffic ""
+    reservation ""
+    port 1
+  ]
+  edge [
+    source 2
+    target 15
+    key 0
+    port 2
+    weight 1
+    bandwidth 350000000
+    traffic "18000000,18000000,18000000,18000000"
+    reservation "18621000.0,20289600.0,15710400.0,19182600.0"
+  ]
+  edge [
+    source 3
+    target 10
+    key 0
+    LinkSpeed "10"
+    LinkLabel "10Gb/s"
+    LinkSpeedUnits "G"
+    LinkSpeedRaw 10000000000.0
+    bandwidth 75000000
+    traffic "18000000"
+    reservation "19182600.0"
+    port 0
+  ]
+  edge [
+    source 3
+    target 19
+    key 0
+    port 1
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 4
+    target 10
+    key 0
+    LinkSpeed "5"
+    LinkLabel "5Gb/s"
+    LinkSpeedUnits "G"
+    LinkSpeedRaw 5000000000.0
+    bandwidth 75000000
+    traffic ""
+    reservation ""
+    port 0
+  ]
+  edge [
+    source 5
+    target 10
+    key 0
+    LinkSpeed "20"
+    LinkLabel "20Gb/s"
+    LinkSpeedUnits "G"
+    LinkSpeedRaw 20000000000.0
+    bandwidth 75000000
+    traffic "18000000"
+    reservation "18621000.0"
+    port 0
+  ]
+  edge [
+    source 5
+    target 6
+    key 0
+    LinkSpeed "5"
+    LinkLabel "5Gb/s"
+    LinkSpeedUnits "G"
+    LinkSpeedRaw 5000000000.0
+    bandwidth 75000000
+    traffic "3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000"
+    reservation "3510500.0,3510500.0,3782450.0,3782450.0,3510500.0,3510500.0,3510500.0,3510500.0,3782450.0,3510500.0,3782450.0,3782450.0,3782450.0,3510500.0,3782450.0,3782450.0,3782450.0,3782450.0,3510500.0,3510500.0"
+    port 1
+  ]
+  edge [
+    source 5
+    target 7
+    key 0
+    LinkSpeed "5"
+    LinkLabel "5Gb/s"
+    LinkSpeedUnits "G"
+    LinkSpeedRaw 5000000000.0
+    bandwidth 75000000
+    traffic ""
+    reservation ""
+    port 2
+  ]
+  edge [
+    source 6
+    target 5
+    key 0
+    LinkSpeed "5"
+    LinkLabel "5Gb/s"
+    LinkSpeedUnits "G"
+    LinkSpeedRaw 5000000000.0
+    bandwidth 75000000
+    traffic ""
+    reservation ""
+    port 0
+  ]
+  edge [
+    source 6
+    target 13
+    key 0
+    port 1
+    weight 1
+    bandwidth 350000000
+    traffic "3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000"
+    reservation "3510500.0,3510500.0,3782450.0,3782450.0,3510500.0,3510500.0,3510500.0,3510500.0,3782450.0,3510500.0,3782450.0,3782450.0,3782450.0,3510500.0,3782450.0,3782450.0,3782450.0,3782450.0,3510500.0,3510500.0"
+  ]
+  edge [
+    source 7
+    target 5
+    key 0
+    LinkSpeed "5"
+    LinkLabel "5Gb/s"
+    LinkSpeedUnits "G"
+    LinkSpeedRaw 5000000000.0
+    bandwidth 75000000
+    traffic "18000000"
+    reservation "18621000.0"
+    port 0
+  ]
+  edge [
+    source 7
+    target 16
+    key 0
+    port 1
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 8
+    target 10
+    key 0
+    LinkSpeed "5"
+    LinkLabel "5Gb/s"
+    LinkSpeedUnits "G"
+    LinkSpeedRaw 5000000000.0
+    bandwidth 75000000
+    traffic ""
+    reservation ""
+    port 0
+  ]
+  edge [
+    source 9
+    target 10
+    key 0
+    LinkSpeed "5"
+    LinkLabel "5Gb/s"
+    LinkSpeedUnits "G"
+    LinkSpeedRaw 5000000000.0
+    bandwidth 75000000
+    traffic ""
+    reservation ""
+    port 0
+  ]
+  edge [
+    source 10
+    target 0
+    key 0
+    LinkSpeed "5"
+    LinkLabel "5Gb/s"
+    LinkSpeedUnits "G"
+    LinkSpeedRaw 5000000000.0
+    bandwidth 75000000
+    traffic ""
+    reservation ""
+    port 0
+  ]
+  edge [
+    source 10
+    target 2
+    key 0
+    LinkSpeed "10"
+    LinkLabel "10Gb/s"
+    LinkSpeedUnits "G"
+    LinkSpeedRaw 10000000000.0
+    bandwidth 75000000
+    traffic "18000000,18000000,18000000,18000000,200000,200000,200000,200000,200000,200000"
+    reservation "18621000.0,20289600.0,15710400.0,19182600.0,211280.0,211280.0,186980.0,211280.0,186980.0,186980.0"
+    port 1
+  ]
+  edge [
+    source 10
+    target 3
+    key 0
+    LinkSpeed "10"
+    LinkLabel "10Gb/s"
+    LinkSpeedUnits "G"
+    LinkSpeedRaw 10000000000.0
+    bandwidth 75000000
+    traffic ""
+    reservation ""
+    port 2
+  ]
+  edge [
+    source 10
+    target 4
+    key 0
+    LinkSpeed "5"
+    LinkLabel "5Gb/s"
+    LinkSpeedUnits "G"
+    LinkSpeedRaw 5000000000.0
+    bandwidth 75000000
+    traffic ""
+    reservation ""
+    port 3
+  ]
+  edge [
+    source 10
+    target 5
+    key 0
+    LinkSpeed "20"
+    LinkLabel "20Gb/s"
+    LinkSpeedUnits "G"
+    LinkSpeedRaw 20000000000.0
+    bandwidth 75000000
+    traffic "3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000,3500000"
+    reservation "3510500.0,3510500.0,3782450.0,3782450.0,3510500.0,3510500.0,3510500.0,3510500.0,3782450.0,3510500.0,3782450.0,3782450.0,3782450.0,3510500.0,3782450.0,3782450.0,3782450.0,3782450.0,3510500.0,3510500.0"
+    port 4
+  ]
+  edge [
+    source 10
+    target 8
+    key 0
+    LinkSpeed "5"
+    LinkLabel "5Gb/s"
+    LinkSpeedUnits "G"
+    LinkSpeedRaw 5000000000.0
+    bandwidth 75000000
+    traffic ""
+    reservation ""
+    port 5
+  ]
+  edge [
+    source 10
+    target 9
+    key 0
+    LinkSpeed "5"
+    LinkLabel "5Gb/s"
+    LinkSpeedUnits "G"
+    LinkSpeedRaw 5000000000.0
+    bandwidth 75000000
+    traffic ""
+    reservation ""
+    port 6
+  ]
+  edge [
+    source 10
+    target 11
+    key 0
+    LinkSpeed "5"
+    LinkLabel "5Gb/s"
+    LinkSpeedUnits "G"
+    LinkSpeedRaw 5000000000.0
+    bandwidth 75000000
+    traffic ""
+    reservation ""
+    port 7
+  ]
+  edge [
+    source 10
+    target 12
+    key 0
+    LinkSpeed "10"
+    LinkLabel "10Gb/s"
+    LinkSpeedUnits "G"
+    LinkSpeedRaw 10000000000.0
+    bandwidth 75000000
+    traffic ""
+    reservation ""
+    port 8
+  ]
+  edge [
+    source 10
+    target 18
+    key 0
+    port 9
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 10
+    target 31
+    key 0
+    port 10
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 10
+    target 32
+    key 0
+    port 11
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 10
+    target 33
+    key 0
+    port 12
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 10
+    target 34
+    key 0
+    port 13
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 10
+    target 35
+    key 0
+    port 14
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 10
+    target 36
+    key 0
+    port 15
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 10
+    target 37
+    key 0
+    port 16
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 10
+    target 38
+    key 0
+    port 17
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 10
+    target 39
+    key 0
+    port 18
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 10
+    target 40
+    key 0
+    port 19
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 10
+    target 41
+    key 0
+    port 20
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 10
+    target 42
+    key 0
+    port 21
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 10
+    target 43
+    key 0
+    port 22
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 10
+    target 44
+    key 0
+    port 23
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 10
+    target 45
+    key 0
+    port 24
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 11
+    target 10
+    key 0
+    LinkSpeed "5"
+    LinkLabel "5Gb/s"
+    LinkSpeedUnits "G"
+    LinkSpeedRaw 5000000000.0
+    bandwidth 75000000
+    traffic ""
+    reservation ""
+    port 0
+  ]
+  edge [
+    source 12
+    target 10
+    key 0
+    LinkSpeed "10"
+    LinkLabel "10Gb/s"
+    LinkSpeedUnits "G"
+    LinkSpeedRaw 10000000000.0
+    bandwidth 75000000
+    traffic "18000000,3500000,3500000,200000,200000,3500000,200000,3500000,200000,200000,3500000,3500000"
+    reservation "20289600.0,3510500.0,3510500.0,211280.0,211280.0,3782450.0,186980.0,3782450.0,211280.0,186980.0,3510500.0,3510500.0"
+    port 0
+  ]
+  edge [
+    source 12
+    target 17
+    key 0
+    port 1
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 12
+    target 20
+    key 0
+    port 2
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 12
+    target 21
+    key 0
+    port 3
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 12
+    target 22
+    key 0
+    port 4
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 12
+    target 23
+    key 0
+    port 5
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 12
+    target 24
+    key 0
+    port 6
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 12
+    target 25
+    key 0
+    port 7
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 12
+    target 26
+    key 0
+    port 8
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 12
+    target 27
+    key 0
+    port 9
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 12
+    target 28
+    key 0
+    port 10
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 12
+    target 29
+    key 0
+    port 11
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 12
+    target 30
+    key 0
+    port 12
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 13
+    target 6
+    key 0
+    port 0
+    weight 1
+    bandwidth 350000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 14
+    target 1
+    key 0
+    port 0
+    weight 1
+    bandwidth 350000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 15
+    target 2
+    key 0
+    port 0
+    weight 1
+    bandwidth 350000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 16
+    target 7
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "18000000"
+    reservation "18621000.0"
+  ]
+  edge [
+    source 17
+    target 12
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "18000000"
+    reservation "20289600.0"
+  ]
+  edge [
+    source 18
+    target 10
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "18000000"
+    reservation "15710400.0"
+  ]
+  edge [
+    source 19
+    target 3
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "18000000"
+    reservation "19182600.0"
+  ]
+  edge [
+    source 20
+    target 12
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "3500000"
+    reservation "3510500.0"
+  ]
+  edge [
+    source 21
+    target 12
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "3500000"
+    reservation "3510500.0"
+  ]
+  edge [
+    source 22
+    target 12
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "200000"
+    reservation "211280.0"
+  ]
+  edge [
+    source 23
+    target 12
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "200000"
+    reservation "211280.0"
+  ]
+  edge [
+    source 24
+    target 12
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "3500000"
+    reservation "3782450.0"
+  ]
+  edge [
+    source 25
+    target 12
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "200000"
+    reservation "186980.0"
+  ]
+  edge [
+    source 26
+    target 12
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "3500000"
+    reservation "3782450.0"
+  ]
+  edge [
+    source 27
+    target 12
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "200000"
+    reservation "211280.0"
+  ]
+  edge [
+    source 28
+    target 12
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "200000"
+    reservation "186980.0"
+  ]
+  edge [
+    source 29
+    target 12
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "3500000"
+    reservation "3510500.0"
+  ]
+  edge [
+    source 30
+    target 12
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "3500000"
+    reservation "3510500.0"
+  ]
+  edge [
+    source 31
+    target 10
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "3500000"
+    reservation "3510500.0"
+  ]
+  edge [
+    source 32
+    target 10
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "3500000"
+    reservation "3510500.0"
+  ]
+  edge [
+    source 33
+    target 10
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "3500000"
+    reservation "3782450.0"
+  ]
+  edge [
+    source 34
+    target 10
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "200000"
+    reservation "186980.0"
+  ]
+  edge [
+    source 35
+    target 10
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "3500000"
+    reservation "3510500.0"
+  ]
+  edge [
+    source 36
+    target 10
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "3500000"
+    reservation "3782450.0"
+  ]
+  edge [
+    source 37
+    target 10
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "3500000"
+    reservation "3782450.0"
+  ]
+  edge [
+    source 38
+    target 10
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "3500000"
+    reservation "3782450.0"
+  ]
+  edge [
+    source 39
+    target 10
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "3500000"
+    reservation "3510500.0"
+  ]
+  edge [
+    source 40
+    target 10
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "3500000"
+    reservation "3782450.0"
+  ]
+  edge [
+    source 41
+    target 10
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "3500000"
+    reservation "3782450.0"
+  ]
+  edge [
+    source 42
+    target 10
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "3500000"
+    reservation "3782450.0"
+  ]
+  edge [
+    source 43
+    target 10
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "3500000"
+    reservation "3782450.0"
+  ]
+  edge [
+    source 44
+    target 10
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "3500000"
+    reservation "3510500.0"
+  ]
+  edge [
+    source 45
+    target 10
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "3500000"
+    reservation "3510500.0"
+  ]
+]

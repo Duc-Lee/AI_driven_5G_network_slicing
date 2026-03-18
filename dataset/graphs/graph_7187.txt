@@ -1,0 +1,703 @@
+graph [
+  directed 1
+  multigraph 1
+  GeoLocation "Czech Republic"
+  GeoExtent "Country"
+  Network "CESNET"
+  Provenance "Primary"
+  Access 0
+  Source "http://www.ces.net/network/img/1999-ten155.gif"
+  Version "1.0"
+  Type "REN"
+  DateType "Historic"
+  Backbone 1
+  Commercial 0
+  label "Cesnet1999"
+  ToolsetVersion "0.3.34dev-20120328"
+  Customer 0
+  IX 0
+  SourceGitVersion "e278b1b"
+  DateModifier "="
+  DateMonth 0
+  LastAccess "20/01/11"
+  Layer "IP"
+  Creator "Topology Zoo Toolset"
+  Developed 1
+  Transit 1
+  NetworkDate "1999"
+  DateYear "1999"
+  LastProcessed "2011_09_01"
+  Testbed 1
+  levelsToS 19
+  node [
+    id 0
+    label "0"
+    Internal 0
+    type "inner"
+    schedulingPolicy "WFQ"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+    schedulingWeights "100"
+    levelsQoS 1
+    queueSizes "32"
+  ]
+  node [
+    id 1
+    label "1"
+    Country "Czech Republic"
+    Longitude 17.66667
+    Internal 1
+    Latitude 49.21667
+    type "inner"
+    schedulingPolicy "WFQ"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+    schedulingWeights "100"
+    levelsQoS 1
+    queueSizes "32"
+  ]
+  node [
+    id 2
+    label "2"
+    Country "Czech Republic"
+    Longitude 18.28204
+    Internal 1
+    Latitude 49.83465
+    type "destination_urllc"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+    queueSizes "32"
+  ]
+  node [
+    id 3
+    label "3"
+    Country "Czech Republic"
+    Longitude 17.25175
+    Internal 1
+    Latitude 49.59552
+    type "destination_mmtc"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+    queueSizes "32"
+  ]
+  node [
+    id 4
+    label "4"
+    Country "Czech Republic"
+    Longitude 16.60796
+    Internal 1
+    Latitude 49.19522
+    type "destination_embb"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+    queueSizes "32"
+  ]
+  node [
+    id 5
+    label "5"
+    Country "Czech Republic"
+    Longitude 13.37759
+    Internal 1
+    Latitude 49.74747
+    type "inner"
+    schedulingPolicy "WFQ"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+    schedulingWeights "100"
+    levelsQoS 1
+    queueSizes "32"
+  ]
+  node [
+    id 6
+    label "6"
+    Country "Czech Republic"
+    Longitude 14.03227
+    Internal 1
+    Latitude 50.6607
+    type "antenna"
+    schedulingPolicy "WFQ"
+    tosToQoSqueue "16,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,18"
+    schedulingWeights "100;100"
+    levelsQoS 1
+    queueSizes "32"
+  ]
+  node [
+    id 7
+    label "7"
+    Country "Czech Republic"
+    Longitude 14.42076
+    Internal 1
+    Latitude 50.08804
+    type "inner"
+    schedulingPolicy "WFQ"
+    tosToQoSqueue "18;16,17,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15"
+    schedulingWeights "0.001,99.999;32.501,67.499;0.001,99.999;0.001,99.999;0.001,99.999;0.001,99.999;0.001,99.999;0.001,99.999;0.001,99.999"
+    levelsQoS 2
+    queueSizes "32,32"
+  ]
+  node [
+    id 8
+    label "8"
+    Country "Czech Republic"
+    Longitude 15.05619
+    Internal 1
+    Latitude 50.76711
+    type "inner"
+    schedulingPolicy "WFQ"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+    schedulingWeights "100"
+    levelsQoS 1
+    queueSizes "32"
+  ]
+  node [
+    id 9
+    label "9"
+    Country "Czech Republic"
+    Longitude 14.47434
+    Internal 1
+    Latitude 48.97447
+    type "inner"
+    schedulingPolicy "WFQ"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+    schedulingWeights "100"
+    levelsQoS 1
+    queueSizes "32"
+  ]
+  node [
+    id 10
+    label "10"
+    Internal 0
+    type "inner"
+    schedulingPolicy "WFQ"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+    schedulingWeights "100"
+    levelsQoS 1
+    queueSizes "32"
+  ]
+  node [
+    id 11
+    label "11"
+    Country "Czech Republic"
+    Longitude 15.77659
+    Internal 1
+    Latitude 50.04075
+    type "inner"
+    schedulingPolicy "WFQ"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+    schedulingWeights "100"
+    levelsQoS 1
+    queueSizes "32"
+  ]
+  node [
+    id 12
+    label "12"
+    Country "Czech Republic"
+    Longitude 15.83277
+    Internal 1
+    Latitude 50.20923
+    type "antenna"
+    schedulingPolicy "WFQ"
+    tosToQoSqueue "18;17,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16"
+    schedulingWeights "32.501,67.499;0.001,99.999;0.001,99.999"
+    levelsQoS 2
+    queueSizes "32,32"
+  ]
+  node [
+    id 13
+    label "13"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+    queueSizes "32"
+    type "destination_urllc"
+  ]
+  node [
+    id 14
+    label "14"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+    queueSizes "32"
+    type "destination_mmtc"
+  ]
+  node [
+    id 15
+    label "15"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+    queueSizes "32"
+    type "destination_embb"
+  ]
+  node [
+    id 16
+    label "16"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+    queueSizes "32"
+    type "origin_embb"
+    reservation 16833600.0
+  ]
+  node [
+    id 17
+    label "17"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+    queueSizes "32"
+    type "origin_embb"
+    reservation 16833600.0
+  ]
+  node [
+    id 18
+    label "18"
+    schedulingPolicy "FIFO"
+    levelsQoS "1"
+    schedulingWeights "-"
+    tosToQoSqueue "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18"
+    queueSizes "32"
+    type "origin_embb"
+    reservation 16250400.0
+  ]
+  edge [
+    source 0
+    target 7
+    key 0
+    LinkSpeed "34"
+    LinkLabel "34M"
+    LinkSpeedUnits "M"
+    LinkSpeedRaw 34000000.0
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+    port 0
+  ]
+  edge [
+    source 1
+    target 4
+    key 0
+    LinkSpeed "2"
+    LinkLabel "2M"
+    LinkSpeedUnits "M"
+    LinkSpeedRaw 2000000.0
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+    port 0
+  ]
+  edge [
+    source 2
+    target 4
+    key 0
+    LinkSpeed "34"
+    LinkLabel "34M"
+    LinkSpeedUnits "M"
+    LinkSpeedRaw 34000000.0
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+    port 0
+  ]
+  edge [
+    source 2
+    target 13
+    key 0
+    port 1
+    weight 1
+    bandwidth 350000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 3
+    target 4
+    key 0
+    LinkSpeed "34"
+    LinkLabel "34M"
+    LinkSpeedUnits "M"
+    LinkSpeedRaw 34000000.0
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+    port 0
+  ]
+  edge [
+    source 3
+    target 14
+    key 0
+    port 1
+    weight 1
+    bandwidth 350000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 4
+    target 1
+    key 0
+    LinkSpeed "2"
+    LinkLabel "2M"
+    LinkSpeedUnits "M"
+    LinkSpeedRaw 2000000.0
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+    port 0
+  ]
+  edge [
+    source 4
+    target 2
+    key 0
+    LinkSpeed "34"
+    LinkLabel "34M"
+    LinkSpeedUnits "M"
+    LinkSpeedRaw 34000000.0
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+    port 1
+  ]
+  edge [
+    source 4
+    target 3
+    key 0
+    LinkSpeed "34"
+    LinkLabel "34M"
+    LinkSpeedUnits "M"
+    LinkSpeedRaw 34000000.0
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+    port 2
+  ]
+  edge [
+    source 4
+    target 7
+    key 0
+    LinkSpeed "155"
+    LinkLabel "155M"
+    LinkSpeedUnits "M"
+    LinkSpeedRaw 155000000.0
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+    port 3
+  ]
+  edge [
+    source 4
+    target 15
+    key 0
+    port 4
+    weight 1
+    bandwidth 350000000
+    traffic "18000000,18000000,18000000"
+    reservation "16833600.0,16833600.0,16250400.0"
+  ]
+  edge [
+    source 5
+    target 7
+    key 0
+    LinkSpeed "34"
+    LinkLabel "34M"
+    LinkSpeedUnits "M"
+    LinkSpeedRaw 34000000.0
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+    port 0
+  ]
+  edge [
+    source 6
+    target 7
+    key 0
+    LinkSpeed "2"
+    LinkLabel "2M"
+    LinkSpeedUnits "M"
+    LinkSpeedRaw 2000000.0
+    bandwidth 50000000
+    traffic "18000000"
+    reservation "16833600.0"
+    port 0
+  ]
+  edge [
+    source 6
+    target 16
+    key 0
+    port 1
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 7
+    target 0
+    key 0
+    LinkSpeed "34"
+    LinkLabel "34M"
+    LinkSpeedUnits "M"
+    LinkSpeedRaw 34000000.0
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+    port 0
+  ]
+  edge [
+    source 7
+    target 4
+    key 0
+    LinkSpeed "155"
+    LinkLabel "155M"
+    LinkSpeedUnits "M"
+    LinkSpeedRaw 155000000.0
+    bandwidth 50000000
+    traffic "18000000,18000000,18000000"
+    reservation "16833600.0,16833600.0,16250400.0"
+    port 1
+  ]
+  edge [
+    source 7
+    target 5
+    key 0
+    LinkSpeed "34"
+    LinkLabel "34M"
+    LinkSpeedUnits "M"
+    LinkSpeedRaw 34000000.0
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+    port 2
+  ]
+  edge [
+    source 7
+    target 6
+    key 0
+    LinkSpeed "2"
+    LinkLabel "2M"
+    LinkSpeedUnits "M"
+    LinkSpeedRaw 2000000.0
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+    port 3
+  ]
+  edge [
+    source 7
+    target 8
+    key 0
+    LinkSpeed "34"
+    LinkLabel "34M"
+    LinkSpeedUnits "M"
+    LinkSpeedRaw 34000000.0
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+    port 4
+  ]
+  edge [
+    source 7
+    target 9
+    key 0
+    LinkSpeed "34"
+    LinkLabel "34M"
+    LinkSpeedUnits "M"
+    LinkSpeedRaw 34000000.0
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+    port 5
+  ]
+  edge [
+    source 7
+    target 10
+    key 0
+    LinkSpeed "8"
+    LinkLabel "8M"
+    LinkSpeedUnits "M"
+    LinkSpeedRaw 8000000.0
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+    port 6
+  ]
+  edge [
+    source 7
+    target 11
+    key 0
+    LinkSpeed "34"
+    LinkLabel "34M"
+    LinkSpeedUnits "M"
+    LinkSpeedRaw 34000000.0
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+    port 7
+  ]
+  edge [
+    source 7
+    target 12
+    key 0
+    LinkSpeed "34"
+    LinkLabel "34M"
+    LinkSpeedUnits "M"
+    LinkSpeedRaw 34000000.0
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+    port 8
+  ]
+  edge [
+    source 8
+    target 7
+    key 0
+    LinkSpeed "34"
+    LinkLabel "34M"
+    LinkSpeedUnits "M"
+    LinkSpeedRaw 34000000.0
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+    port 0
+  ]
+  edge [
+    source 9
+    target 7
+    key 0
+    LinkSpeed "34"
+    LinkLabel "34M"
+    LinkSpeedUnits "M"
+    LinkSpeedRaw 34000000.0
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+    port 0
+  ]
+  edge [
+    source 10
+    target 7
+    key 0
+    LinkSpeed "8"
+    LinkLabel "8M"
+    LinkSpeedUnits "M"
+    LinkSpeedRaw 8000000.0
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+    port 0
+  ]
+  edge [
+    source 11
+    target 7
+    key 0
+    LinkSpeed "34"
+    LinkLabel "34M"
+    LinkSpeedUnits "M"
+    LinkSpeedRaw 34000000.0
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+    port 0
+  ]
+  edge [
+    source 12
+    target 7
+    key 0
+    LinkSpeed "34"
+    LinkLabel "34M"
+    LinkSpeedUnits "M"
+    LinkSpeedRaw 34000000.0
+    bandwidth 50000000
+    traffic "18000000,18000000"
+    reservation "16833600.0,16250400.0"
+    port 0
+  ]
+  edge [
+    source 12
+    target 17
+    key 0
+    port 1
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 12
+    target 18
+    key 0
+    port 2
+    weight 1
+    bandwidth 50000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 13
+    target 2
+    key 0
+    port 0
+    weight 1
+    bandwidth 350000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 14
+    target 3
+    key 0
+    port 0
+    weight 1
+    bandwidth 350000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 15
+    target 4
+    key 0
+    port 0
+    weight 1
+    bandwidth 350000000
+    traffic ""
+    reservation ""
+  ]
+  edge [
+    source 16
+    target 6
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "18000000"
+    reservation "16833600.0"
+  ]
+  edge [
+    source 17
+    target 12
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "18000000"
+    reservation "16833600.0"
+  ]
+  edge [
+    source 18
+    target 12
+    key 0
+    port 0
+    weight 1
+    bandwidth 50000000
+    traffic "18000000"
+    reservation "16250400.0"
+  ]
+]
